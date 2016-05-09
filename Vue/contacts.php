@@ -86,9 +86,7 @@ $bdd= $conn->get_bdd();
                         </li>
                     </ul>
                 </li>
-                    </ul>
-                </li>
-            </ul>
+                    </ul>              
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
@@ -140,7 +138,7 @@ $bdd= $conn->get_bdd();
 
 
 foreach($users as $user){
-	echo '<tr><td>'.$user->name.'</td><td>'.$user->first_name.'</td><td>'.$user->email.'</td><td>'.$user->telephone.'</td><td><a href="../Controleur/deleteContact.php?id='.$user->id.'">X</a></td>';
+	echo '<tr><td>'.$user->name.'</td><td>'.$user->first_name.'</td><td>'.$user->email.'</td><td>'.$user->telephone.'</td><td><a href="../Controleur/deleteContact.php?id='.$user->id.'"><FONT color="red">X</FONT></a></td><td><a href="javascript:modify_entry(\''.$user->name.'\',\''.$user->first_name.'\',\''.$user->email.'\',\''.$user->telephone.'\',\''.$user->id.'\')"><FONT color="green">Modify</FONT></a></td>';
 	
 }
 echo "</tr></table>";
