@@ -10,7 +10,7 @@ private $bdd;
 $dbName = 'poc'; 
 $host = 'database'; 
 $utilisateur = 'root';
- $motDePasse = $_ENV["MYSQL_PASSWORD"];
+ $motDePasse = 'password';
 $dns = 'mysql:host='.$host .';dbname='.$dbName.';';
  $this->bdd = new PDO( $dns, $utilisateur, $motDePasse ); 
 $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
