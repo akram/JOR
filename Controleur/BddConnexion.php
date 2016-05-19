@@ -9,7 +9,7 @@ private $bdd;
  try { 
 $dbName = 'poc'; 
 $host = 'database'; 
-$utilisateur = 'root';
+$utilisateur = 'admin';
  $motDePasse = 'password';
 $dns = 'mysql:host='.$host .';dbname='.$dbName.';';
  $this->bdd = new PDO( $dns, $utilisateur, $motDePasse ); 
