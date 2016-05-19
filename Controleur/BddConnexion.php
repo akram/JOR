@@ -8,7 +8,7 @@ private $bdd;
 	function connect(){
  try { 
 $dbName = 'poc'; 
-$host = 'localhost'; 
+$host = 'database'; 
 $utilisateur = 'root';
  $motDePasse = '';
 $dns = 'mysql:host='.$host .';dbname='.$dbName.';';
