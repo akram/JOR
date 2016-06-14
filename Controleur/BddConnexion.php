@@ -9,8 +9,8 @@ private $bdd;
  try { 
 $dbName = 'poc'; 
 $host = 'db-service'; 
-$utilisateur = 'root';
- $motDePasse = '';
+$utilisateur = 'dbadmin';
+ $motDePasse = 'dbadmin';
 $dns = 'mysql:host='.$host .';dbname='.$dbName.';';
  $this->bdd = new PDO( $dns, $utilisateur, $motDePasse ); 
 $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
