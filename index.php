@@ -34,7 +34,7 @@
             
         <input name="user_id" type="mail" id="user_id" placeholder="Name" class="form-control" autofocus> 
         <input type="password" name="password" id="password" placeholder="Password" class="form-control" >       
-		<input class="btn btn-lg btn-primary btn-block" type="submit" name="Submit" value="Connect">
+		<input class="btn btn-lg btn-primary btn-block" type="submit" name="Submit" value="ConnectJUJU">
 		<input class="btn btn-lg btn-primary btn-block" type="submit" name="Register" value="Create account">
       </form>
 	
