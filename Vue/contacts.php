@@ -40,7 +40,7 @@ $bdd= $conn->get_bdd();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>POC</title>
+    <title>POC : OpenShift Origin v3</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
