@@ -15,7 +15,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <title>POC</title>
+    <title>POC: OpenShift Origin v3</title>
 
 
  
