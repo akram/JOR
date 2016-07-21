@@ -27,7 +27,7 @@
 <div class="row">
 
 <div style="margin-left:auto;margin-top:10%;margin-right:auto;text-align:center;" >
-<img src="img/Logo_wavestone.png" alt="logo" height="250" width="375"></div>
+<img src="img/Logo_wavestone.png" alt="logo" height="100" width="375"></div>
   
 <div style="margin-left:auto;margin-right:auto;width:20%;text-align:center;" >
       <form class="form-signin" name="form_login" method="post" action="Controleur/login.php" role="form">
